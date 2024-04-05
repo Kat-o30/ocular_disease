@@ -15,6 +15,7 @@ const ImgCarousel = () => {
           <p style={{ color: "#fff", border: "2px solid #000", borderRadius: "5px", padding: "5px", backgroundColor: "#71811c" }}>macular hole and normal fundus</p>     
         </Carousel.Caption>
       </Carousel.Item>
+      
       <Carousel.Item style={{backgroundColor:"#1b3f66"}}>
         <img src={img2} alt="" width={400} style={{ marginLeft: "470px" }} />
         <Carousel.Caption style={{paddingBottom: "150px", paddingRight: "60vh"}}>
